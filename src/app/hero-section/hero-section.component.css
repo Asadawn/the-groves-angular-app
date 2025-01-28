@@ -1,0 +1,43 @@
+.jumbotron{
+    border-radius: 25px;
+    padding: 25px;
+    background: linear-gradient(to right,#344114, #252e11);
+}
+.reserv-btn{
+    background: linear-gradient(to bottom, #c4943c, #d8b15a);
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.1); /* Slightly light transparent background */
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .card img {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .card-footer {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .card-footer a {
+    font-size: 1.5rem;
+  }
+  .card-title{
+    text-align: left;
+  }
+  .card-text{
+    background: #AD8749;
+    border-radius: 50px;
+  }
+
+  
