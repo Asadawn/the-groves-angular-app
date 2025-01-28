@@ -1,0 +1,38 @@
+
+  
+  .navbar-brand {
+    font-family: "Times New Roman", serif;
+    font-size: 1.5rem;
+    color: #d4af37 !important; 
+  }
+  
+  .navbar a i {
+    font-size: 1.25rem;
+  }
+  
+  .navbar a:hover {
+    color: #d4af37 !important; 
+  }
+  
+  .btn-warning {
+    background-color: #d4af37;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .btn-outline-light {
+    border-color: #d4af37;
+    color: #d4af37;
+  }
+  .login-btn {
+    background: linear-gradient(to bottom, #c4943c, #d8b15a);
+
+width: 102px;
+height: 38px;
+border-radius: 16px;
+  } 
+  @media (max-width:600px) {
+    .navbar.navbar-expand-lg {
+      display: none !important;
+        }    
+  }
