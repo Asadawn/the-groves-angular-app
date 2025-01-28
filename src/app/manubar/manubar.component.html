@@ -1,0 +1,75 @@
+<!-- <p>manubar works!</p> -->
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="mbl navbar-brand text-light fw-bold" href="#">
+      <img src="assets/images/logos/groves-logo.png" alt="Logo" height="40" class="d-inline-block align-text-top" />
+    </a>
+    <button class="navbar-toggler" (click)="toggleMenu()"  [attr.aria-expanded]="isMenuExpanded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+     aria-controls="navbarNav"  aria-label="Toggle navigation" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav d-flex justify-content-around w-100">
+        <li class="nav-item">
+          <a class="nav-link" href="#mall">Dine with Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#events">Plan Your Visit</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#events">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#map">View Groves Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Our Story</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Contact Us</a>
+        </li>
+      </ul>
+<div class="mbl">
+           <!-- Language Selector and Login -->
+    <div class="text-center ms-3 mt-5">
+      <div class="dropdown mb-3">
+        <button
+          class="btn btn-outline-light dropdown-toggle"
+          type="button"
+          id="languageDropdown"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img src="assets/images/logos/uk-flag.png" alt="English" width="20" class="me-2" />
+          English
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+          <li><a class="dropdown-item" href="#">English</a></li>
+          <li><a class="dropdown-item" href="#">Arabic</a></li>
+        </ul>
+      </div>
+      <button class="btn btn-warning login-btn btn-lg text-dark">Log in</button>
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="social-icons d-flex justify-content-center align-items-center mt-5">
+  
+        <a href="#" class="text-light me-3">
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="#" class="text-light me-3">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-light me-3">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-light me-3">
+          <i class="fab fa-snapchat"></i>
+        </a>
+    </div>
+  </div>
+    </div>
+  </div>
+
+</nav>
